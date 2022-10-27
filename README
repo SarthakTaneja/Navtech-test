@@ -1,0 +1,5 @@
+Order Management System
+
+This project is based on components. Created componenets like Login, Add/Edit Order etc to achieve the functionality requirements given in the assessment.
+Used React-Router-Dom Routes so that order page opens only after user is logged in successfully.
+Added validations in the login and order page.
