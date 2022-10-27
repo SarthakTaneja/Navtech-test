@@ -14,7 +14,7 @@ export default function validate(values) {
     } else if (!/[!@#$%&?]/g.test(values.password)) {
       errors.password = "Password must contain atleast 1 special character";
     } else if (!/[A-Z]/g.test(values.password)) {
-      errors.password = "Password must contain atleast 1 capitol letter";
+      errors.password = "Password must contain atleast 1 capital letter";
     }
     return errors;
   }
